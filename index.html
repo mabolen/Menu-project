@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <h1>Create NPC</h1>
+            <label for="npc">Name:</label>
+            <input type="text" name="npc" id="npc-input" value="">
+            <button id="create-npc" onclick="createNpc()">Create</button>
+            <br></br>
+            <button onclick="viewNpc()">View NPCs</button>
+            <button onclick="deleteNpc()">Delete NPCs</button>
+            <br></br>
+            <p>NPCs:</p>
+            <div id="npc-list">
+            </div>
+            <h1>Create Enemy</h1>
+            <label for="enemy">Name:</label>
+            <input type="text" name="enemy" id="enemy-input" value="">
+            <button id="create-enemy" onclick="createEnemy()">Create</button>
+            <br></br>
+            <button onclick="viewEnemy()">View Enemies</button>
+            <button onclick="deleteEnemy()">Delete Enemies</button>
+            <br></br>
+            <p>Enemies:</p>
+            <div id="enemy-list">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

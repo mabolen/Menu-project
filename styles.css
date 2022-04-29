@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(rgb(246, 53, 53), rgb(178, 41, 41), rgb(126, 81, 81));
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
